@@ -7,8 +7,20 @@
 </head>
 <body>
     <div id="conteudo">
-        <h2>Quer sair comigo?</h2>
-        <div style="margin: auto;width: 170px;">
+        <div id="topo">
+            <h1>CONVITE</h1>
+            <h2>Quer sair comigo?</h2>
+        </div>
+
+        
+        <div  style="margin-bottom: 100px; margin-left: 30%;">
+            <p>Infos:</p>
+            <p>📍 Endereço: Rua Alagoas, 851 - Savassi - BH/MG.</p>
+            <p>⏰ Às 19 horas e 15 minutos, horário de Brasília.</p>
+            <p> Nunca fui e espero que se for ruim você continue me amando 😘</p>
+        </div>
+
+        <div style="margin: auto;width: 170px; text-align: center;">
             <button style="position: fixed;display: block;" class="btn" onclick="sim()">SIM</button>
             <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)" style="position: absolute;">NÃO</button>
         </div>
@@ -17,6 +29,11 @@
 </body>
 
     <style>
+        #topo {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
         #conteudo {
             background: #ff7a7a;
             width: 100%;
@@ -25,10 +42,10 @@
             top: 0;
             left: 0;
             padding: 10px;
-            text-align: center;
+            /* text-align: center; */
             font-family: sans-serif;
         }
-    
+     
         .btn {
             background: black;
             color: white;
